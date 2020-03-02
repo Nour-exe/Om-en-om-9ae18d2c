@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body> 
-<h3>Looped Chessboard</h3>
+<h3>Looped chessboard</h3>
 <table width="270px" cellspacing="0px" cellpadding="0px" border="1px">
 
  <?php
