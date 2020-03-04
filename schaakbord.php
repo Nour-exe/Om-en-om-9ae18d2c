@@ -14,7 +14,7 @@
 
 
 <?php
- for($row=1;$row<=8;$row++) { 
+ for($row=1;$row<=8;$row++){ 
      echo "<tr>";
      for($i=1;$i<=8;$i++) {
      $total=$row+$i;
