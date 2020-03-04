@@ -14,16 +14,16 @@
 
 
 <?php
- for($row=1;$row<=8;$row++){ 
-     echo "<tr>";
-     for($i=1;$i<=8;$i++) {
-     $total=$row+$i;
-     if($total%2==0) {
-     echo "<td height=30px width=30px bgcolor=#FFFFFF> </td>";
-     }else {
+for($row=1;$row<=8;$row++){ 
+    echo "<tr>";
+    for($i=1;$i<=8;$i++) {
+    $total=$row+$i;
+ if($total%2==0) {
+    echo "<td height=30px width=30px bgcolor=#FFFFFF> </td>";
+ }else {
      echo "<td height=30px width=30px bgcolor=#000000> </td>";
      }
-     }
+ }
      echo "</tr>";
     }
      ?>
